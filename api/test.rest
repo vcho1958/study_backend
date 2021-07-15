@@ -1,0 +1,11 @@
+###
+POST http://localhost:4500/board
+Content-Type: application/json
+
+{
+  "title": "test2",
+  "content": "asdsad"
+}
+
+###
+GET http://localhost:4500/board?page=1&limit=3&sort=-createdAt
